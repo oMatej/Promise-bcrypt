@@ -93,3 +93,5 @@ var compare = exports.compare = function compare() {
     });
   });
 };
+
+exports.default = { genSaltSync: genSaltSync, hashSync: hashSync, compareSync: compareSync, getRounds: getRounds, getSalt: getSalt, genSalt: genSalt, hash: hash, compare: compare };

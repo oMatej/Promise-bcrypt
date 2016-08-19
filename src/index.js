@@ -62,3 +62,5 @@ export const compare = (s = '', hash = '') => {
     });
   });
 }
+
+export default { genSaltSync, hashSync, compareSync, getRounds, getSalt, genSalt, hash, compare };
