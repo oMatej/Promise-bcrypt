@@ -2,7 +2,7 @@
 
 `npm install https://github.com/oMatej/Promise-bcryptjs.git --save`
 
-```javascript
+```
 // ES6
 import bcrypt from 'promise-bcryptjs';
 // ES5
@@ -11,7 +11,7 @@ const bcrypt = require('promise-bcryptjs');
 
 ### Synchronously
 
-```javascript
+```
 let salt = bcrypt.genSaltSync(10);
 
 let hash = bcrypt.hashSync('toHash', salt);
@@ -21,7 +21,7 @@ let isCorrect = bcrypt.compareSync('inputPassword', hash);
 
 ### Asynchronously
 
-```javascript
+```
 // Async/Await
 const hashPassword = async (password) => {
   try {
